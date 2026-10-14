@@ -1,0 +1,14 @@
+Python 3.11.9 Windows embeddable distribution (64-bit)
+Copyright Python Software Foundation and contributors.
+
+Official source:
+https://www.python.org/ftp/python/3.11.9/python-3.11.9-embed-amd64.zip
+
+Original archive SHA-256:
+009D6BF7E3B2DDCA3D784FA09F90FE54336D5B60F0E0F305C37F400BF83CFD3B
+
+The official distribution is included unchanged under runtime/.
+License and bundled third-party notices: runtime/LICENSE.txt
+
+The bundled interpreter is used only for the local patch application tool.
+It does not install Python globally or require additional Python packages.
