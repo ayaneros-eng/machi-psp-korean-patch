@@ -1,13 +1,13 @@
 # 거리 · 운명의 교차점 특별편 — PSP 한글패치
 
-PSP 일본판 **《街 ～運命の交差点～ 特別篇》**을 한국어로 즐길 수 있는 비공식 패치입니다.
+PSP 일본판 《街 ～運命の交差点～ 特別篇》을 한국어로 즐길 수 있는 비공식 패치입니다.
 본문과 TIP, 메뉴를 번역하고 일부 그래픽과 동영상의 일본어 문구를 한글로 바꿨습니다.
 
-**배포 버전: R42**
+배포 버전: R42
 
-**[한글패치 다운로드](https://github.com/ayaneros-eng/machi-psp-korean-patch/releases/latest)**
+[한글패치 다운로드](https://github.com/ayaneros-eng/machi-psp-korean-patch/releases/latest)
 
-Releases의 **`Machi_PSP_Korean_R42.zip`**을 받으세요. 자동으로 붙는 `Source code` 파일에는 패치 데이터가 없습니다.
+Releases의 `Machi_PSP_Korean_R42.zip`을 받으세요. 자동으로 붙는 `Source code` 파일에는 패치 데이터가 없습니다.
 일본판 원본 ISO가 필요하며, 이전 한글패치는 필요하지 않습니다. 게임 이미지 자체는 배포하지 않습니다.
 
 ## 한글 화면
@@ -22,10 +22,10 @@ Releases의 **`Machi_PSP_Korean_R42.zip`**을 받으세요. 자동으로 붙는 
 
 Windows에서는 다음 순서로 적용할 수 있습니다.
 
-1. [Python 3.11.9](https://www.python.org/downloads/release/python-3119/)의 **Windows installer (64-bit)**를 설치합니다. 설치 항목의 Python Launcher도 포함해 주세요.
-2. `Machi_PSP_Korean_R42.zip`을 새 폴더에 풉니다. 여유 공간은 **5GB 이상**을 권장합니다.
-3. 일본판 원본 ISO를 **`apply_patch.cmd` 위로 끌어다 놓습니다.**
-4. 완료 메시지가 나오면 같은 폴더에 생성된 **`Machi_R42_Korean.cso`**를 실행합니다.
+1. [Python 3.11.9](https://www.python.org/downloads/release/python-3119/)의 Windows installer (64-bit)를 설치합니다. 설치 항목의 Python Launcher도 포함해 주세요.
+2. `Machi_PSP_Korean_R42.zip`을 새 폴더에 풉니다. 여유 공간은 5GB 이상을 권장합니다.
+3. 일본판 원본 ISO를 `apply_patch.cmd` 위로 끌어다 놓습니다.
+4. 완료 메시지가 나오면 같은 폴더에 생성된 `Machi_R42_Korean.cso`를 실행합니다.
 
 원본은 그대로 유지됩니다. 같은 이름의 결과 파일이 이미 있으면 덮어쓰지 않고 중단합니다.
 
@@ -64,10 +64,10 @@ py -3.11 -X utf8 apply_patch.py --source "original.iso" --output "Machi_R42_Kore
 
 ## 적용 오류가 날 때
 
-- **`Original ISO size/SHA256 does not match`**: 원본이 위 기준과 다릅니다. 파일명을 바꾸는 것으로 해결되지 않습니다.
-- **`Output already exists`**: 다른 결과 파일명을 지정하거나 기존 결과를 다른 폴더로 옮긴 뒤 다시 적용하세요.
-- **`Insufficient free space`**: 저장 공간을 확보한 뒤 다시 실행하세요.
-- **`CISO index mismatch` / `Output SHA256 mismatch`**: 검증된 환경은 **Python 3.11.9 / zlib 1.3.1**입니다. 압축 라이브러리가 다른 환경에서는 결과가 달라질 수 있습니다. 안내한 Windows 환경으로 다시 적용하세요.
+- `Original ISO size/SHA256 does not match`: 원본이 위 기준과 다릅니다. 파일명을 바꾸는 것으로 해결되지 않습니다.
+- `Output already exists`: 다른 결과 파일명을 지정하거나 기존 결과를 다른 폴더로 옮긴 뒤 다시 적용하세요.
+- `Insufficient free space`: 저장 공간을 확보한 뒤 다시 실행하세요.
+- `CISO index mismatch` / `Output SHA256 mismatch`: 검증된 환경은 Python 3.11.9 / zlib 1.3.1입니다. 압축 라이브러리가 다른 환경에서는 결과가 달라질 수 있습니다. 안내한 Windows 환경으로 다시 적용하세요.
 
 성공하면 `ORIGINAL_JP_TO_EXACT_R42_REBUILD_PASS`가 표시됩니다. 오류로 끝난 결과 파일은 사용하지 마세요.
 
