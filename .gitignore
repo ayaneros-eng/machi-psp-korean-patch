@@ -1,0 +1,5 @@
+*.iso
+*.cso
+*.zip
+*.log
+__pycache__/
